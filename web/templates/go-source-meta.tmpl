@@ -1,0 +1,10 @@
+<html><head>
+  <meta name="go-import"
+        content="{{ .importPath }}
+                 git {{ .repoURI }}">
+  <meta name="go-source"
+        content="{{ .importPath }}
+                 {{ .repoURI }}
+                 {{ .repoURI }}/tree/master{/dir}
+                 {{ .repoURI }}/tree/master{/dir}/{file}#L{line}">
+</head></html>
